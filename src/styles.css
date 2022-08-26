@@ -1,0 +1,208 @@
+:root {
+  --background-hero-color: #01C2CA;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+  --secondary-color: #0b5ed7;
+  --secondary-background-color: #f9f7fe;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 96px;
+}
+
+h2 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: var(--default-font-family);
+  font-size: 30px;
+}
+
+h4 {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+  font-family: var(--default-font-family);
+}
+
+nav a {
+  text-decoration: none;
+  color: #212529;
+}
+
+nav a.active {
+  color: var(--secondary-color);
+}
+
+.hero {
+  background-color: var(--background-hero-color);
+  padding: 100px 5px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: var(--default-font-family);
+}
+
+.btn-primary {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-primary:hover {
+  color: black;
+}
+
+.proPhoto {
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.project-content {
+  padding: 120px 60px;
+}
+
+.project-content h2 {
+  font-family: var(--heading-font-family);
+  font-size: 35px;
+}
+
+.project-content p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.content-container {
+  padding: 100px 5px;
+}
+
+.content {
+  
+  background-color: var(--background-hero-color);
+}
+
+.content-container h1 {
+  font-size: 64px;
+  text-align: left;
+}
+
+.content-container h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.content-container h3 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: var(--default-font-family);
+}
+
+.content-container p {
+  line-height: 30px;
+  font-family: var(--default-font-family);
+}
+
+.project-heading {
+  font-size: 55px;
+}
+.about-image {
+  max-width: 538px;
+  max-height: 538px;
+  border-radius: 5px;
+}
+
+.skills {
+  text-align: left;
+}
+
+.skills li {
+  padding: 8px;
+}
+
+.contact-content {
+  text-align: left;
+}
+
+.highlights {
+  padding-bottom: 20px;
+}
+
+.logo {
+  max-height: 40px;
+}
+
+.contact-box {
+  background-color: var(--secondary-background-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+.contact-box p {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+footer .email-link a {
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+footer .email-link a:hover {
+  color: var(--secondary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  padding: 10px 14px;
+  border-radius: 100%;
+  font-size: 24px;
+  background-color: var(--secondary-background-color);
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--secondary-color);
+}
+
+@media (max-width: 1000px) {
+  .hero h1 {
+    font-size: 65px;
+  }
+
+  .project-content {
+    padding: 0 5px;
+  }
+
+  h4 {
+    font-size: 26px;
+  }
+}
